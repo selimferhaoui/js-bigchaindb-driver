@@ -29,6 +29,7 @@
     "precommit": "lint-staged",
     "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "doc": "node ./node_modules/documentation/bin/documentation.js build src/index.js -f md -o API.md -g --markdown-toc"
+    "start": "node srv.js"
   },
   "lint-staged": {
     "*.js": [
